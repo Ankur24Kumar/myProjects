@@ -1,0 +1,13 @@
+.panel-body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #4A9292;
+  font-size: 80px;
+
+  }
+    body {
+       background-color: #758A8A;
+    }
+    .carousel-inner{
+      height:500px;
+      content:center;
+    }

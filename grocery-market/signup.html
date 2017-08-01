@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Grocery Mart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style2.css"/>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      <a class="navbar-brand" href="index.html"><i class="glyphicon glyphicon-shopping-cart"></i>
+        <strong>GM</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+
+      <a class="navbar-brand" href="login.html"><i class="glyphicon glyphicon-log-in"></i>
+        Login</a>
+    </ul>
+  </div>
+  </div>
+  </nav>
+</br></br></br>
+<div class="container">
+  </br></br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="bs-images/logo.jfif" alt="logo"></img>
+    </div>
+    <div class="col-sm-6 col-right">
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+          <div class="form-group">
+            <label for="pwd">Renter Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+            <div class="form-group">
+              <label for="cpwd">Password:</label>
+                <input type="password" class="form-control" id="cpwd" placeholder="Renter password" >
+              </div>
+              <div class="form-group">
+                <label for="address:">Address:</label>
+                <textarea class="form-control" rows="3" id="address" placeholder="Enter Address"></textarea>
+              </div>
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+      </div>
+    </div>
+</div>
+</body>
+</html>
